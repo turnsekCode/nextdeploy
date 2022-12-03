@@ -1,0 +1,244 @@
+.contenedor_precio_divisa{
+    margin-top: 25px;
+}
+.bloque_divisa{
+    margin-top: 15px;
+}
+.contenedor_botones_divisas{
+    display: flex;
+    gap: 10px;
+}
+.divisa_activa{
+    background: -webkit-linear-gradient(45deg, #25acb9 0%, #1772b5 100%);
+    color: #fff;
+    padding: 6px 20px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0/8%);
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.vender_divisa{
+    background: -webkit-linear-gradient(45deg, #25acb9 0%, #1772b5 100%);
+    color: #fff;
+    padding: 6px 20px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0/8%);
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.comprar_divisa{
+    background: #F6F6F6;
+    color: #0e5c8c;
+    padding: 6px 20px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0/8%);
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.precio_divisas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.contenedor_der_divisa img{
+    width: 60px;
+}
+.contenedor_izq_divisa {
+    margin-left: 10px;
+}
+.precio_divisas_dolar, .precio_divisas_libra{
+    display: flex;
+}
+.codigo{
+        font-weight: 700;
+        color: #0e5c8c;
+        line-height: 14px;
+}
+.nombre{
+    color: #0e5c8c;
+    font-size: 13px;
+    line-height: 11px;
+}
+.precio_dolar, .precio_libra{
+    font-size: 16px;
+    line-height: 13px;
+    color: #0e5c8c;
+    font-weight: 700;
+}
+.boton_llamar_divisa a{
+    background: #e91e63;
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 40px 12px;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    margin-top: 26px;
+}
+.contenedor_botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.contenedor_modal {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: #000;
+}
+
+/*estilos del comppnente vender*/ 
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 45px auto;
+}
+.card_body {
+    max-width: 100%;
+}
+.card_header h4 {
+    color: #00dde8;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: center;
+}
+.menu_divisa {
+    display: flex;
+    gap: 10px;
+}
+.select_compra {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #F6F6F6;
+    color: #0e5c8c;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    height: 55px;
+}
+.select_venta {
+    padding: 5px 10px;
+    font-size: 16px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    color: #0e5c8c;
+    cursor: pointer;
+    text-align: center;
+    height: 55px;
+}
+.selecciona_cambio {
+    position: relative;
+}
+.moneda_habitual {
+    padding: 11px 0;
+    display: inline-block;
+    margin: 2px 2px;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 44.7%;
+    background: #ccfeff;
+    color: #0082a7;
+    text-align: center;
+    text-transform: lowercase;
+}
+.moneda_habitual_selected{
+    color: #888;
+    background: #d5d5d5;
+}
+.activo {
+    background: linear-gradient(45deg, #25acb9 0%, #1772b5 100%) !important;
+    color: #fff;
+}
+.precio_cambio.comprar {
+    text-align: center;
+    margin: 9px auto;
+    background: rgba(204, 254, 255, .5);
+    padding: 10px 0;
+    width: 100%;
+}
+.cambio_compra,
+.cambio_venta {
+    color: #006682;
+    font-size: 14px;
+    padding: 2px 9px;
+    margin: 6px 0;
+    text-align: center;
+    font-weight: 700;
+}
+.valor_cambioeur{
+    font-weight: 400;
+}
+.lista_moneda {
+    background: -webkit-linear-gradient(45deg, #25acb9 0%, #1772b5 100%) !important;
+    padding: 9px 20px !important;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    border-style: none;
+    outline: none;
+}
+.lista_moneda option {
+    color: #000;
+}
+.operacion_cambio {
+    gap: 10px;
+    display: flex;
+}
+.campoA {
+    display: inline-block;
+    color: #0e5c8c;
+    font-weight: 500;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 8px 12px 14px;
+    background: rgba(0, 0, 0, 0.06);
+}
+.campoB {
+    display: inline-block;
+    color: #0e5c8c;
+    font-weight: 500;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 8px 12px 14px;
+    background: rgba(0, 0, 0, 0.06);
+}
+.contenedor_cambio {
+    width: 90%;
+    margin: auto;
+}
+.inputA,
+.inputB {
+    width: 100%;
+    background: #fff;
+    border: none;
+    color: #000;
+}
+.boton_llamar_divisa{
+    width: 100%;
+}
+.cambios_habituales{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 125px;
+}
+/*fin estilos del comppnente vender*/

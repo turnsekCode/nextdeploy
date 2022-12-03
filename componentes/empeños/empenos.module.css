@@ -1,0 +1,31 @@
+.empenos{
+    margin-top: 25px;
+}
+.contenedor_empenos{
+    margin-top: 15px;
+}
+.boton_llamar_empenos{
+    background: #e91e63;
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 40px 12px;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    margin-top: 15px;
+}
+.contenedor_img_empenos img{
+    width: 100%;
+}
+.contenedor_botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.contenedor_modal {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: #000;
+}

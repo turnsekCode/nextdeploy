@@ -1,0 +1,12 @@
+.resenas{
+    margin-top: 20px;
+}
+
+.resenas h2 {
+    font-size: 27px;
+    font-family: arial, sans-serif-light, sans-serif;
+    font-weight: 600;
+    color: #213e58;
+    padding: 35px 40px 15px;
+    text-align: center;
+}

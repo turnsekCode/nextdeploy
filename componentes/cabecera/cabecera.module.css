@@ -1,0 +1,44 @@
+.contenedor_cabecera{
+    z-index: 230;
+    position: fixed;
+    height: 82px;
+    width: 100%;
+    top: 0;
+    background: rgba(2, 131, 165, .9) !important;
+    box-shadow: 1px 1px 13px rgb(0 0 0 / 50%);
+}
+.contenedor_info_tienda{
+    padding-top: 85px;
+    background: #fff;
+}
+.logo_cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.logo_cabecera img{
+    width: 50%;
+}
+.breadcrumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 11px;
+    background: #213e58;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    height: 26px;
+}
+
+@media (min-width: 800px) {
+    .logo_cabecera {
+        display: none;
+    }
+    .contenedor_cabecera{
+        position: relative;
+    }
+    .breadcrumbs {
+        display: none;
+    }
+}

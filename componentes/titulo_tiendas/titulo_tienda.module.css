@@ -1,0 +1,9 @@
+.contenedor_titulo_tienda h1{
+    text-align: center;
+    font-size: 26px;
+    font-family: arial, sans-serif-light, sans-serif;
+    font-weight: 400;
+    color: #213e58;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

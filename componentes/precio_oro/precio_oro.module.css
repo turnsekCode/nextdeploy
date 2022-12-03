@@ -1,0 +1,384 @@
+.contenedor_precio_oro{
+    margin-top: 20px;
+}
+.bloque_der_oro{
+    background: #ccfeff;
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    min-height: 173px;
+}
+.titulo_destacado{
+    display: block;
+    color: #fff;
+    padding: 2px 0;
+    font-size: 20px;
+    font-weight: 600;
+    background: #213e58;
+    line-height: 32px;
+    text-align: center;
+}
+.precio_normal{
+    text-align: center;
+}
+.precio_destacado{
+    color: #213e58;
+    font-weight: 600;
+    font-size: 60px;
+    padding: 15px;
+}
+.simbolos{
+    color: #213e58;
+    font-size: 30px;
+    font-weight: 600;
+}
+.texto_para_mas{
+    text-align: center;
+}
+.texto_para_mas div {
+    color: #213e58;
+    font-size: 17px;
+}
+.boton_llamar_oro a{
+    background: #e91e63;
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 40px 12px;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    margin-top: 15px;
+}
+.contenedor_botones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.contenedor_modal{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: #000;
+}
+/*  estilos de calculadora oro */
+.contenedorOro {
+    height: 500px;
+}
+
+.titulo_servicio {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 35px 0 0 0px;
+    letter-spacing: -2px;
+    color: #ffffff;
+    box-sizing: border-box;
+    background: #213e58;
+    padding: 5px 37px 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    border-right: 4px solid #007297;
+}
+
+.ver_precio_plata {
+    background: #007297;
+    color: #ffffff;
+    clear: both;
+    cursor: pointer;
+    padding: 3px 20px 3px;
+    font-weight: 700;
+    text-align: center;
+    border-right: 3px solid #213e58;
+}
+
+.contenedor_calculadora {
+    padding: 20px 0;
+    position: relative;
+}
+
+.bloque_precios {
+    margin-top: 20px;
+}
+
+.bloque_titulos h3 {
+    background: #e91e63;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin: 0 5px 5px 0;
+}
+
+.bloque_titulos h4 {
+    background: #213e58;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.titulo_destacado {
+    display: block;
+    color: #ffffff;
+    padding: 2px 0;
+    font-size: 20px;
+    font-weight: 600;
+    background: #213e58;
+    line-height: 32px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.contenedor_precio_normal {
+    margin-top: 20px;
+}
+
+.precio_normal {
+    text-align: center;
+}
+
+.precioNew18K {
+    color: #213e58;
+    font-weight: 600;
+    line-height: 72px;
+    font-size: 72px;
+}
+
+.simbolos {
+    color: #213e58;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.texto_paramas_destacado {
+    color: #213e58;
+    text-align: center;
+    font-size: 18px;
+}
+
+.texto_paramas {
+    color: #213e58;
+    font-size: 14px;
+    border-bottom: 1px solid #213e58;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    min-height: 24px;
+    margin-top: 15px;
+}
+
+.tabla_precios {
+    width: 100%;
+    float: left;
+    background: #ccfeff;
+}
+
+.precios_izq {
+    background: #ccfeff;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 24px;
+}
+
+.precios_der {
+    display: inline-block;
+    width: 100%;
+}
+
+.precio24,
+.precio18{
+    color: #213e58;
+    position: relative;
+    border-right: 5px solid #ffffff;
+    padding: 28px 0px 27px;
+}
+.precio14 {
+    color: #213e58;
+    position: relative;
+    padding: 28px 0px 27px;
+}
+
+.simbolo_precio {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+}
+
+.precio_tabla_24k,
+.precio_tabla_18k,
+.precio_tabla_14k {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.simbolos_euro_gramos {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.ver_precios_oro {
+    width: 10%;
+    background: #e9bb2d;
+    float: left;
+    max-height: 97px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #213e58;
+    font-size: 14px;
+    line-height: 13px;
+    padding: 29px 0 53px;
+    cursor: pointer;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+}
+
+.calculadora_izq {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+
+.calculadora_izq h4 {
+    background: #213e58;
+    color: #fff;
+    font-size: 13px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.calculadora_izq h5 {
+    padding: 10px 7px 10px 7px;
+    text-align: center;
+    color: #213e58;
+    font-size: 17px;
+    line-height: 34px;
+    background: #ccfeff;
+    margin: 0;
+}
+
+.icono_flecha {
+    margin-left: 5px;
+    color: #e9bb2d;
+}
+
+.peso_joyas {
+    border: none;
+    background: #ffffff;
+    color: #007297;
+    font-size: 16px;
+    text-align: right;
+    padding: 1px 5px 1px;
+    box-sizing: border-box;
+    font-weight: 600;
+    margin-right: 1px;
+    margin-top: 2px;
+    border-bottom: 1px solid #007297;
+    width: 90px;
+}
+
+.calculadora_der {
+    width: 100%;
+}
+
+.precio_total {
+    text-align: center;
+    background: #213e58;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    padding: 4px 0 0px;
+}
+
+/*estilos del popup mas precio oro*/
+
+.contenedorMasPrecioOro {
+    margin-top: 50px;
+}
+
+.popup_oro_activo {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.cerrar_oro_volver {
+    background: #e9bb2d;
+    display: inline-block;
+    margin: 0 0 6px;
+    padding: 5px 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    font-size: 12px;
+    color: #213e58;
+    cursor: pointer;
+}
+
+.cerrar_oro {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: #213e58;
+    cursor: pointer;
+}
+
+.texto_paramas_popup {
+    color: #213e58;
+}
+
+.precio_metales {
+    border-top: 1px solid;
+    margin-top: 15px;
+    width: 100%;
+    background: #ccfeff;
+    text-align: center;
+}
+
+.tablasMas24k {
+    border-right: 3px solid #ffffff;
+    width: 33.3%;
+    color: #213e58;
+    position: relative;
+    padding: 28px 0 27px;
+}
+
+.tablasMas18k {
+    border-right: 3px solid #ffffff;
+    width: 33.3%;
+    color: #213e58;
+    position: relative;
+    padding: 28px 0 27px;
+}
+
+.tablasMas14k {
+    width: 33.3%;
+    color: #213e58;
+    position: relative;
+    padding: 28px 0 27px;
+}
+
+.kilates_tabla {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+}
+
+.precio_tabla24k,
+.precio_tabla14k,
+.precio_tabla18k {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.simbolos_popup {
+    color: #213e58;
+    font-size: 20px;
+}
+

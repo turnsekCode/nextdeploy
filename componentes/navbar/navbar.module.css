@@ -1,0 +1,140 @@
+.header_container {
+    background: transparent url(../../public/header.jpg) no-repeat scroll center center;
+    background-color: transparent;
+    display: none;
+}
+.contenedor_lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0 0 0;
+}
+.contenedor_lista li {
+    color: #fff;
+    list-style: none;
+}
+.contenedor_lista a {
+    padding: 15px 14px;
+    transition: 0.4s;
+}
+.contenedor_lista a:hover {
+    background: #096085;
+}
+.contenedor_nav {
+    background: rgba(19, 84, 119, .5) !important;
+}
+.contenedor_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 33%;
+}
+.contenedor_logo img {
+    max-width: 210px;
+    margin-top: 20px;
+}
+.contenedor_lateral_cabecera {
+    width: 33%;
+}
+.contenedor_llamar_cabecera {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px 45px 0;
+}
+.contenedor_llamar_cabecera a {
+    color: #fff;
+    text-align: center;
+}
+.contenedor_llamar_cabecera img {
+    width: 30px;
+    margin-right: 5px;
+}
+.telefono {
+    font-size: 26px;
+}
+.contenedor_logo_llamar {
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+.breadcrumbs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 11px;
+    background: #213e58;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    height: 25px;
+    display: none;
+}
+.navbar {
+    display: none;
+}
+
+
+
+@media (min-width: 800px) {
+    .header_container {
+        display: block;
+    }
+    .breadcrumbs {
+        display: flex;
+    }
+    .navbar {
+        position: relative;
+        z-index: 999;
+        height: 0;
+        width: 100%;
+        background: rgba(7, 148, 208, .9);
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sticky_nav {
+        display: flex;
+        height: 50px;
+    }
+    .logo_sticky{
+        display: block;
+        max-height: 50px;
+        position: absolute;
+        left: 20px;
+        top: 8px;
+        z-index: 99999;
+    }
+    .menu_principal{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu_principal li{
+        display: inline-block;
+        position: relative;
+    }
+    .menu_principal li a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: gotham book;
+        display: block;
+        line-height: 1.25rem;
+            padding: 15px 14px;
+            transition: 0.3s ease;
+    }
+    .menu_principal li a:hover {
+    background: rgba(0, 0, 0, .1);
+    }
+    .logo_sticky a img{
+        width: 140px;
+        height: 27px;
+        margin-top: 4px;
+    }
+}

@@ -1,0 +1,16 @@
+.select{
+    background: #e91e63;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    padding: 7px;
+    width: 90%;
+}
+.contenedor_select{
+    padding-top: 103px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}

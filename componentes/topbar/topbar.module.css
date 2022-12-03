@@ -1,0 +1,31 @@
+ .contenedor_fondo_topbar {
+     background-color: #213e58;
+ }
+
+ .contenedor_topbar {
+     display: flex;
+     justify-content: space-between;
+     max-width: 1024px;
+     margin: 0 auto;
+ }
+
+ .contenedor_topbar_izquierdo a {
+     color: #fff;
+     font-size: 12px;
+     padding: 0px 20px 8px 0;
+     font-weight: 600;
+ }
+
+ .contenedor_topbar_derecho {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .contenedor_topbar_derecho a {
+     color: #0082a7;
+     background: #e9e9e9;
+     font-weight: 600;
+     padding: 0px 20px 8px 15px;
+     font-weight: 600;
+ }

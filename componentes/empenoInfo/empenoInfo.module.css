@@ -1,0 +1,70 @@
+.bloqueTitulo{
+    font-family: open sans, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 43px 0 0 0;
+    letter-spacing: -2px;
+    color: #fff;
+    box-sizing: border-box;
+    background: #213e58;
+    padding: 0px 20px;
+    vertical-align: top;
+    border-right: 4px solid #007297;
+}
+.bloqueTitulo h2{
+    padding: 10px 0px;
+    font-weight: 100;
+    text-align: center;
+}
+.empeno_der{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.caracteristica_empeno{
+    background: #ccfeff;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+}
+.porcentaje{
+    min-width: 110px;
+    background: url(https://quickgold.es/wp-content/themes/quickgold-child/img/bg_empenos.png) no-repeat 0 0 transparent;
+    display: inline-block;
+    padding: 13px 0 13px 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+}
+.texto{
+    color: #213e58;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+}
+.info_empenos{
+    padding: 10px 0;
+    letter-spacing: -1px;
+    color: #213e58;
+}
+.info_empenos p{
+    font-weight: 500;
+    color: #213e58;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+}
+.boton_llamar_empenos {
+    background: #e91e63;
+    font-size: 17px;
+    color: #fff;
+    padding: 0px 50px 7px 50px;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    margin-top: 15px;
+}
+.boton_llamar_empenos a b{
+    font-size: 35px;
+}
