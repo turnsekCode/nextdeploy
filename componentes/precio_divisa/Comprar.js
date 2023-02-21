@@ -16,7 +16,7 @@ const Comprar = ({ dataDivisa, data }) => {
   const refOption = useRef();
   const [addClase, setAddClase] = useState(null);
   const [addClase2, setAddClase2] = useState(null);
-
+  console.log(dataDivisa, "data");
   const captureSelect = (e) => {
     setTipoCambio(true);
     setValorMoneda(e.target.value); //funcion que coge el valor del select
